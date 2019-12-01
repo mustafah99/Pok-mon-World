@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
+body {
+  height: 100%;
+  font-family: 'Bebas Neue', cursive;
+  background: -webkit-gradient(linear, left top, right top, from(#4772f2), color-stop(#3252b1), to(#253d85));
+  background: linear-gradient(90deg, #4772f2, #3252b1, #253d85);
+  color: white;
+}
+
+nav {
+  background: #313131;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px auto;
+}
+
+nav ul li {
+  padding: 5px 18px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 22.5px;
+  font-family: 'Bebas Neue', cursive;
+  text-decoration: none;
+}
+
+li:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+li:hover a {
+  color: #4772f2;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.headerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px auto;
+  background: #313131;
+}
+
+.headerContainer img {
+  position: fixed;
+  top: -37.5px;
+  z-index: 5;
+  margin: 0 auto;
+  width: 300px;
+  height: auto;
+}
+
+.container {
+  background-color: #313131;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 150px;
+  height: 100%;
+  padding-bottom: 100px;
+  z-index: -1;
+}
+
+.card {
+  margin: 0 auto;
+  padding-top: 62.5px;
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card img {
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 500px;
+}
+
+.card .flexbox {
+  position: relative;
+  left: 50px;
+  top: 30px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 30px;
+}
+
+.card .flexbox h1 {
+  font-size: 80px;
+}
+
+.card .flexbox p {
+  position: relative;
+  bottom: 50px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #313131;
+  height: 55px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer p {
+  position: relative;
+  bottom: 5px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
